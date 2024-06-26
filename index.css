@@ -70,7 +70,7 @@ main {
         &:not(#cosy) {
             border-bottom: 1rem solid var(--clr-main-primary);
         }
-        
+
         h1 {
             color: var(--clr-main-primary);
             font-size: 6rem;
@@ -108,9 +108,4 @@ main {
             }
         }
     }
-}
-
-.separator {
-    /* background-color: var(--clr-main-primary);
-    height: 1rem; */
 }
