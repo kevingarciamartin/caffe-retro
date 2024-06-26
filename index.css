@@ -54,6 +54,7 @@ main {
     #cosy {
         background-image: url("assets/cosy.jpg");
     }
+
     
     section {
         align-items: center;
@@ -65,7 +66,11 @@ main {
         gap: 1rem;
         height: 100vh;
         justify-content: center;
-
+        
+        &:not(#cosy) {
+            border-bottom: 1rem solid var(--clr-main-primary);
+        }
+        
         h1 {
             color: var(--clr-main-primary);
             font-size: 6rem;
@@ -106,6 +111,6 @@ main {
 }
 
 .separator {
-    background-color: var(--clr-main-primary);
-    height: 1rem;
+    /* background-color: var(--clr-main-primary);
+    height: 1rem; */
 }
